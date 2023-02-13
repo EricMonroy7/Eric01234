@@ -30,7 +30,7 @@ MAIN:
     INT 21H
     SUB AL, 30H
     MOV N2, AL
-    
+   ; papas fritas
     MOV AL, N1              ; MOV VARIABLE N1 A AL
     ADD AL, N2              ; SUMAR N1 Y N2
     ADD AL, 30H             ; SUMAR RESULTADO CON 30H/48D
