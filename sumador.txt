@@ -16,8 +16,7 @@ MAIN:
     MOV AX, @DATA           ; ACUMULAR DIRECCION DE DATA
     MOV DS, AX              ; MOVER LA DIRECCION A DS
         
-    MOV AH, 9               ; SERVICIO DE IMPRESION
-    LEA DX, M1              ; OBTIENE LA DIRECCION DE M1
+   
     INT 21H                 ; INTERRUPCION 21H
     MOV AH, 1               ; SERVICIO DE ENTRADA
     INT 21H                 ; INTERRUPCION 21H
